@@ -1,0 +1,86 @@
+body {
+  font-family: "Times New Roman", serif;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Enables Flexbox */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  text-align: center; /* Ensures text inside elements is centered */
+  background-color: lightblue;
+  background-image: url('NC24_cinema_18x2 Beyond Youthful Days_05_1920x1080.jpg'); /* Replace with your image */
+  background-size: cover; /* Makes the background image cover the whole screen */
+  background-position: center; /* Centers the image */
+  background-attachment: scroll; 
+  background-repeat: no-repeat; /* Prevents tiling */
+  color: white; /* Ensures text is readable over the background */
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 18px;
+  }
+  
+  h1, p {
+    margin: 0; /* Ensures no extra space around text */
+    padding: 0;
+  }
+
+  section {
+    max-width: 800px; /* Limit content width */
+    margin: 2rem auto; /* Center the content and add vertical space */
+    padding: 2rem; /* Add padding inside the section */
+    background: rgba(0, 0, 0, 0.856); /* Optional: Semi-transparent background for readability */
+    color: white;
+    border-radius: 10px; /* Optional: Rounded corners for a modern look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow for emphasis */
+  }
+
+
+  main {
+    margin-top: 100px; 
+    max-width: 800px; 
+    padding: 2rem; /* Adds padding inside the section */
+    padding-bottom: 50px;
+    border-radius: 10px; /* Optional: Rounded corners for a modern look */
+    margin: 20px; /* Adds space around the main content */
+  }
+
+  header {
+    width: 100%;
+    position: absolute; /* Keep it fixed at the top of the screen */
+    top: 0; /* Align it at the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust horizontal position to ensure perfect centering */
+    padding: 20px 0; /* Add padding for better spacing */
+    background-color: rgba(0, 174, 255, 0.6); /* Optional: Semi-transparent background */
+  }
+  
+  header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use Flexbox for navigation items */
+    justify-content: center; /* Center navigation items */
+  }
+  
+  header ul li {
+    margin: 0 15px;
+  }
+  
+  /*HEADING BUTTONS*/
+  header ul li a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 2rem 0;
+  }
+  
+  footer {
+    background: #333;
+    color: #000000;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+  }
+  
